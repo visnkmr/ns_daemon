@@ -21,3 +21,10 @@ Tested on Linux but uses libs that should function on Windows and Mac OS platfor
 
 Clone the project and in the same directory open preffered shell and `cargo run <interface-name>(optional)`. You can find the debug executable in `target/debug` folder after running `cargo run`.
   
+## Reporting issues
+
+Found a bug? We'd love to know about it!
+
+Please report all issues on the GitHub [issue tracker][issues].
+
+[issues]: https://github.com/visnkmr/ns_daemon/issues
