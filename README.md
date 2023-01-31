@@ -17,7 +17,13 @@ Upload and Download total bytes updates every 1s, the total is updated every 60s
 ✔️ Manjaro XFCE (Linux, based on Arch)  
 Tested on Linux but uses libs that should function on Windows and Mac OS platform. Feel free to test in any other platform and tell me the results! 
   
-## Setup:
+## Setup
+- If you use the executable run the executable with the interface name from any shell if you wish to monitor a specific interface else just double click on the executable. 
+
+The data will be available at `http://localhost:6798` as a json file with session upload bytes, session download bytes, today data usage as the three fields in that order.
+
+
+- If you wish to run the daemon directly from the source code
 Steps to install rust is available at bottom of this page [here](https://github.com/visnkmr/ns_daemon/edit/main/README.md#installing-rust). 
 
 Clone the project and in the same directory open preffered shell and `cargo run <interface-name>(optional)`. You can find the debug executable in `target/debug` folder after running `cargo run`.
