@@ -18,7 +18,9 @@ Upload and Download total bytes updates every 1s, the total is updated every 60s
 Tested on Linux but uses libs that should function on Windows and Mac OS platform. Feel free to test in any other platform and tell me the results! 
   
 ## Setup
-- If you use the executable run the executable with the interface name from any shell if you wish to monitor a specific interface else just double click on the executable. 
+- Download and run the executable available from the [releases (Available for Linux and Windows)](https://github.com/visnkmr/ns_gui/releases/latest)) section. It will provide the upload and download bandwidth in bytes which are the totals of all network interfaces currently active.
+
+If you wish to monitor a specific interface run the executable with the interface name from the terminal/shell of your choice. 
 
 The data will be available at `http://localhost:6798` as a json file with session upload bytes, session download bytes, today data usage as the three fields in that order.
 
