@@ -1,5 +1,5 @@
 # ns_daemon
-NetSpeed Daemon for NetSpeed Overlay app written in Rust that provides 
+NetSpeed Daemon for NetSpeed Monitor app written in Rust that provides 
 - the upload, download bytes used of present session 
 - total bandwidth usage since the daemon started running. 
 
