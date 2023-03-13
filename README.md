@@ -30,7 +30,7 @@ Steps to install rust is available at bottom of this page [here](https://github.
 
 Clone the project and in the same directory open preffered shell and `cargo run <interface-name>(optional)`. You can find the debug executable in `target/debug` folder after running `cargo run`.
 
-## Per day bytes transfered stored @  
+## Per day bytes used stored @  
 Lin: /home/username/.config  
 Win: Drivename:\Users\username\AppData\Roaming  
 Mac: /Users/username/Library/Application Support  
