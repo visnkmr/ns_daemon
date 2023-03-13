@@ -7,7 +7,7 @@ Upload and Download total bytes updates every 1s, the total is updated every 60s
 
 ### Crates used
 - `serde_json`
-- `abserde`
+- `prefstore`
 - `serde`
 - `chrono`
 - `sysinfo `
@@ -29,6 +29,12 @@ The data will be available at `http://localhost:6798` as a json file with sessio
 Steps to install rust is available at bottom of this page [here](https://github.com/visnkmr/ns_daemon/edit/main/README.md#installing-rust). 
 
 Clone the project and in the same directory open preffered shell and `cargo run <interface-name>(optional)`. You can find the debug executable in `target/debug` folder after running `cargo run`.
+
+## Per day bytes transfered stored @  
+Lin: /home/username/.config  
+Win: Drivename:\Users\username\AppData\Roaming  
+Mac: /Users/username/Library/Application Support  
+  
   
 ## Reporting issues
 
